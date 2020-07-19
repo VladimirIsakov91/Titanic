@@ -143,7 +143,7 @@ def end_logging(trainer):
 
 trainer.run(loader, max_epochs=epochs)
 
-torch.save(model, "/artifacts/test_model.pt")
+torch.save(model, "/storage/model/test_model.pt")
     #return evaluator.state.metrics['accuracy']
 
 #if __name__ == "__main__":
