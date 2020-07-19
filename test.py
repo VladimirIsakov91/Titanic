@@ -77,7 +77,6 @@ epochs = 40
 
 
 #def objective(trial):
-print(os.getenv('NEPTUNE_API_TOKEN'))
 #lr = trial.suggest_categorical('lr', [0.01, 0.001, 0.0001])
 logger = NeptuneLogger(api_token=os.getenv('NEPTUNE_API_TOKEN'),
                            project_name="vladimir.isakov/sandbox",
